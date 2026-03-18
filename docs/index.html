@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISO 27001 Startup Toolkit — Templates + Audit Pack</title>
+  <meta name="description" content="A startup-sized ISO 27001 documentation toolkit: templates, checklists, and a control-to-evidence tracker." />
+  <style>
+    :root{
+      --bg:#0b1220; --card:#101a30; --text:#e8eefc; --muted:#b8c4e6;
+      --accent:#7c5cff; --accent2:#22c55e; --border:rgba(255,255,255,0.10);
+      --max: 920px;
+      --radius: 16px;
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background: radial-gradient(1200px 600px at 20% 0%, rgba(124,92,255,0.25), transparent 60%),
+                  radial-gradient(900px 500px at 80% 10%, rgba(34,197,94,0.18), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{ color: inherit; }
+    .wrap{ max-width: var(--max); margin:0 auto; padding: 56px 20px 80px; }
+    header{ padding: 10px 0 28px; }
+    .badge{ display:inline-flex; gap:8px; align-items:center; padding:6px 10px; border:1px solid var(--border);
+      border-radius: 999px; color: var(--muted); font-size: 13px; background: rgba(255,255,255,0.04);
+    }
+    h1{ font-size: 44px; line-height:1.05; margin: 16px 0 12px; letter-spacing:-0.02em; }
+    .sub{ font-size: 18px; color: var(--muted); max-width: 72ch; }
+    .ctaRow{ display:flex; gap:12px; flex-wrap:wrap; margin-top: 18px; }
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:10px;
+      padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border);
+      background: rgba(255,255,255,0.06); text-decoration:none; font-weight: 650;
+    }
+    .btnPrimary{ background: linear-gradient(135deg, rgba(124,92,255,0.95), rgba(124,92,255,0.70)); border-color: rgba(124,92,255,0.6); }
+    .btnSecondary{ background: rgba(255,255,255,0.06); }
+    .note{ color: var(--muted); font-size: 14px; margin-top: 10px; }
+
+    .grid{ display:grid; grid-template-columns: 1fr; gap: 14px; margin-top: 26px; }
+    @media (min-width: 860px){ .grid{ grid-template-columns: 1.1fr 0.9fr; gap: 18px; } }
+
+    .card{
+      background: rgba(16,26,48,0.75); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 18px 18px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+    }
+    h2{ font-size: 20px; margin: 0 0 10px; letter-spacing:-0.01em; }
+    ul{ margin: 10px 0 0 18px; color: var(--muted); }
+    li{ margin: 6px 0; }
+
+    .kpis{ display:flex; flex-wrap:wrap; gap:10px; margin-top: 10px; }
+    .kpi{ padding:8px 10px; border-radius: 12px; border:1px solid var(--border); background: rgba(255,255,255,0.04); color: var(--muted); font-size: 13px; }
+
+    .footer{ margin-top: 24px; color: var(--muted); font-size: 13px; }
+    .hr{ height:1px; background: var(--border); margin: 18px 0; }
+    .small{ font-size: 13px; color: var(--muted); }
+    code{ background: rgba(255,255,255,0.06); border:1px solid var(--border); padding: 2px 6px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge">Draft • Early access</div>
+      <h1>ISO 27001 Startup Toolkit</h1>
+      <div class="sub">Templates + checklists + a simple control→evidence tracker — designed for lean teams preparing for first-time ISO 27001 certification.</div>
+
+      <div class="ctaRow">
+        <!-- Replace href with your form/checkout link -->
+        <a class="btn btnPrimary" href="https://docs.google.com/forms/d/e/1FAIpQLSc5T7HvH1R0s08z0Zu2GH0ZaLyJ2jCG5duExogmHdgVvVmehg/viewform?usp=dialog" target="_blank" rel="noopener">Get early access</a>
+        <a class="btn btnSecondary" href="#inside">See what’s inside</a>
+      </div>
+      <div class="note">No spam. Reply with your timeline and I’ll send the current outline + launch pricing.</div>
+
+      <div class="kpis">
+        <div class="kpi"><strong>Best for:</strong> B2B SaaS / startups</div>
+        <div class="kpi"><strong>Outcome:</strong> clear documentation plan</div>
+        <div class="kpi"><strong>Format:</strong> Docs + Sheets (planned)</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Why this exists</h2>
+        <div class="small">Teams pursuing ISO 27001 often get stuck on documentation sprawl:</div>
+        <ul>
+          <li>You know you need policies, procedures, and evidence — but not which ones first.</li>
+          <li>Consultants are expensive, and generic templates are too broad.</li>
+          <li>You lose weeks formatting documents instead of implementing controls.</li>
+        </ul>
+        <div class="hr"></div>
+        <h2>What you’re buying</h2>
+        <div class="small">A startup-sized ISO 27001 documentation toolkit that gives you:</div>
+        <ul>
+          <li>A clear sequence of what to write and implement</li>
+          <li>Clean templates you can customize quickly</li>
+          <li>Checklists to reduce “unknown unknowns” during the audit journey</li>
+        </ul>
+      </section>
+
+      <aside class="card" id="inside">
+        <h2>What’s inside (draft scope)</h2>
+        <div class="small"><strong>Core templates (editable)</strong></div>
+        <ul>
+          <li>Information Security Policy</li>
+          <li>Risk Assessment Methodology + Risk Register</li>
+          <li>Statement of Applicability (SoA)</li>
+          <li>Asset Inventory</li>
+          <li>Supplier / Third-Party Security Questionnaire</li>
+          <li>Incident Response Plan + Incident Log</li>
+          <li>Access Control Policy</li>
+          <li>Change Management Procedure</li>
+          <li>Secure SDLC guidance (lightweight)</li>
+          <li>Internal Audit Checklist</li>
+          <li>Management Review agenda + minutes template</li>
+        </ul>
+        <div class="hr"></div>
+        <div class="small"><strong>Checklists + tracking</strong></div>
+        <ul>
+          <li>Minimum-viable ISO checklist for lean teams</li>
+          <li>Evidence collection checklist</li>
+          <li>Pre-audit readiness checklist</li>
+          <li>Control→evidence mapping sheet</li>
+          <li>Weekly ISO project tracker</li>
+        </ul>
+      </aside>
+    </div>
+
+    <section class="card" style="margin-top:14px;">
+      <h2>How it works</h2>
+      <ol class="small" style="margin: 10px 0 0 18px; color: var(--muted);">
+        <li><strong>Customize</strong> the templates to match your org</li>
+        <li><strong>Run</strong> the checklist to implement what the docs require</li>
+        <li><strong>Collect evidence</strong> using the mapping sheet</li>
+        <li><strong>Prepare</strong> for internal audit + management review</li>
+      </ol>
+      <div class="hr"></div>
+      <div class="small"><strong>FAQ:</strong></div>
+      <div class="small" style="margin-top:8px;"><strong>Will this guarantee certification?</strong> No — certification depends on implementation and audit outcomes.</div>
+      <div class="small" style="margin-top:6px;"><strong>Aligned to ISO 27001:2022?</strong> Intended direction is alignment to the 2022 version; final references will be documented.</div>
+      <div class="small" style="margin-top:6px;"><strong>Multi-company use?</strong> License terms TBD; likely one legal entity per purchase.</div>
+    </section>
+
+    <div class="footer">
+      <div class="hr"></div>
+      <div>Contact: <a href="mailto:axel@astroveluna.com">axel@astroveluna.com</a></div>
+      <div>Tip: replace the <code>mailto:</code> CTA with a Google Form / ConvertKit / Stripe checkout link when ready.</div>
+    </div>
+  </div>
+</body>
+</html>
