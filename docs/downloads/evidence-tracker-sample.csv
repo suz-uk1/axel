@@ -1,0 +1,11 @@
+Control/Area,ISO27001 Reference (optional),Evidence item,Owner,Frequency,Where it lives (link/path),Last completed,Next due,Notes
+Access reviews,,Access review record (who reviewed / changes approved),IT/Security,Monthly,,,
+Backups & restore tests,,Restore test log + outcome,Engineering,Quarterly,,,
+Incident management,,Incident log + postmortems,Security/Engineering,As needed,,,
+Supplier management,,Vendor list + review notes + questionnaire log,Ops/Security,Annual,,,
+Change management,,Change approvals + deployment record (PR links),Engineering,Per change,,,
+Internal audit,,Internal audit checklist + findings + actions,Security/GRC,Annual,,,
+Management review,,Management review minutes + decisions + actions,Leadership,Annual,,,
+Asset inventory,,Asset register (systems, owners, classification),IT/Ops,Quarterly,,,
+Risk management,,Risk register + treatment plan updates,Security/GRC,Monthly,,,
+Security awareness,,Training completion record,HR/Ops,Annual,,,
