@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NIS2 Incident Reporting (24h/72h) — Practical Setup Guide</title>
+  <meta name="description" content="A practical guide for lean teams to set up NIS2-style incident reporting: define T0, track 24h/72h deadlines, and keep evidence. Includes a downloadable timeline kit." />
+  <style>
+    :root{--bg:#0b0e14;--card:#121826;--text:#e7eefc;--muted:#a8b3cf;--accent:#7c5cff;--line:#23304a;--max:920px}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:var(--bg);color:var(--text);line-height:1.65;}
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:0 auto;padding:50px 18px 90px;}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+    h1{font-size:34px;line-height:1.1;margin:0 0 10px;letter-spacing:-0.02em}
+    .sub{color:var(--muted);margin:0 0 16px}
+    h2{font-size:20px;margin:22px 0 10px}
+    ul{margin:8px 0 0 18px;color:var(--muted)}
+    li{margin:6px 0}
+    code{background:rgba(255,255,255,0.06);border:1px solid var(--line);padding:2px 6px;border-radius:10px}
+    .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,0.06);text-decoration:none;font-weight:700}
+    .btnPrimary{background:linear-gradient(135deg, rgba(124,92,255,0.95), rgba(124,92,255,0.70));border-color:rgba(124,92,255,0.6)}
+    .hr{height:1px;background:var(--line);margin:18px 0}
+    .small{color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <a class="btn" href="./nis2/">← Back</a>
+      <h1>NIS2 incident reporting (24h / 72h): a practical setup guide</h1>
+      <p class="sub">Most teams don’t fail NIS2 on tooling. They fail on timestamps, accountability, and evidence. This guide helps you set up a defensible workflow in under 30 minutes.</p>
+
+      <div class="row">
+        <a class="btn btnPrimary" href="https://buy.stripe.com/8x2dRa5mU2ETfZt3Wo53O0a" target="_blank" rel="noopener">Get the €49 timeline kit</a>
+        <a class="btn" href="https://github.com/suz-uk1/axel/raw/main/docs/downloads/nis2/nis2-incident-reporting-timeline-kit-v0.zip" target="_blank" rel="noopener">Download kit ZIP (preview)</a>
+      </div>
+
+      <div class="hr"></div>
+
+      <h2>1) Define T0 (the most common confusion)</h2>
+      <ul>
+        <li><strong>T0</strong> = the moment your organisation becomes <em>aware</em> of a significant incident.</li>
+        <li>Record <code>Detected_At</code> and <code>Known_At_T0</code> separately in your incident log.</li>
+      </ul>
+
+      <h2>2) Track the deadlines as fields, not as memory</h2>
+      <ul>
+        <li>Create fields for <code>T0+24h</code> and <code>T0+72h</code> due times.</li>
+        <li>Assign an <code>Incident Commander</code> and a <code>Triage Owner</code> for every SEV1/SEV2.</li>
+      </ul>
+
+      <h2>3) Keep evidence by default</h2>
+      <ul>
+        <li>Link the ticket, key logs, comms drafts, and decisions in an <code>Evidence_Links</code> field.</li>
+        <li>If you can’t show it, it didn’t happen (from an auditor’s perspective).</li>
+      </ul>
+
+      <h2>4) Run one tabletop</h2>
+      <ul>
+        <li>Pick a realistic scenario (phishing, ransomware, SaaS compromise).</li>
+        <li>Fill one row end-to-end in the timeline tracker.</li>
+      </ul>
+
+      <div class="hr"></div>
+      <p class="small">Want the full baseline pack (policies + registers + 7-day playbook)? See <a href="./nis2/">the NIS2 landing page</a> and reply “templates”.</p>
+    </div>
+  </div>
+</body>
+</html>
