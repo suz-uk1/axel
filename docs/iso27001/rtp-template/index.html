@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISO 27001 Risk Treatment Plan (RTP) Template — Minimal Fields</title>
+  <meta name="description" content="A minimal ISO 27001:2022 risk treatment plan (RTP) template for startups: fields, examples, and how to link it to SoA and evidence." />
+  <style>
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6;color:#111;background:#fff}
+    .wrap{max-width:900px;margin:0 auto;padding:28px 18px 72px}
+    h1{font-size:32px;line-height:1.15;margin:0 0 10px}
+    h2{margin-top:28px}
+    .muted{color:#555}
+    .card{background:#f6f7f9;border-radius:14px;padding:16px}
+    a{color:#0b57d0}
+    pre{background:rgba(0,0,0,.05);border-radius:12px;padding:14px;overflow:auto}
+    .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn.primary{background:#0b57d0;color:#fff}
+    .btn.secondary{background:#fff;color:#0b57d0;border:1px solid rgba(11,87,208,.35)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>ISO 27001 Risk Treatment Plan (RTP) — Minimal Template</h1>
+    <p class="muted">The RTP is where your risk decisions become owned, dated, and trackable.</p>
+
+    <div class="card">
+      <p><strong>Full ISO 27001 Startup Toolkit</strong> (templates + evidence checklist + 4–8 week plan):</p>
+      <div class="cta">
+        <a class="btn primary" href="https://buy.stripe.com/5kQbJ202A4N14gL50s53O06">Buy ($199)</a>
+        <a class="btn secondary" href="/axel/iso27001/">Main landing page</a>
+      </div>
+    </div>
+
+    <h2>Minimal fields (what auditors expect)</h2>
+    <ul>
+      <li>Risk ID (from risk register)</li>
+      <li>Risk statement (1 line)</li>
+      <li>Treatment decision (Mitigate / Accept / Transfer / Avoid)</li>
+      <li>Planned controls / actions (1–3 items)</li>
+      <li>Owner</li>
+      <li>Due date</li>
+      <li>Status</li>
+      <li>Evidence link(s)</li>
+    </ul>
+
+    <h2>Copy/paste table</h2>
+    <pre>Risk ID | Risk | Decision | Actions/Controls | Owner | Due | Status | Evidence
+R-012 | Prod admin access not reviewed | Mitigate | Quarterly access review; remove unused accounts | CTO | 2026-04-15 | In progress | access-review-log
+R-031 | Vendor breach impacts data | Mitigate | Critical vendor assessment; contract clauses | Ops | 2026-04-30 | Planned | vendor-risk-notes
+R-044 | No DLP tooling | Accept | Compensating: encryption + least privilege | Security | 2026-03-31 | Accepted | risk-acceptance-record
+</pre>
+
+    <h2>How to keep it consistent</h2>
+    <ul>
+      <li>RTP links back to risk register (same IDs).</li>
+      <li>SoA references the controls you selected for treatments.</li>
+      <li>Every “Implemented” item has at least one evidence pointer.</li>
+    </ul>
+
+    <h2>Related pages</h2>
+    <ul>
+      <li><a href="/axel/iso27001/risk-methodology/">Risk methodology template</a></li>
+      <li><a href="/axel/iso27001/soa-template/">SoA template</a></li>
+    </ul>
+  </div>
+</body>
+</html>
