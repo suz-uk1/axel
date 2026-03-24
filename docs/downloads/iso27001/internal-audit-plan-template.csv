@@ -1,0 +1,6 @@
+Audit area,Scope,Evidence to sample,Sampling method,Auditor,Date,Findings,Corrective action owner,Due date,Notes
+Joiner/Mover/Leaver,People ops + IAM,"Access requests; approvals; provisioning logs; quarterly reviews","Sample 5 changes in last 30 days",,,"",,,
+Change management,Engineering,"Tickets/PRs; approvals; deploy logs; monitoring alerts","Sample 3 production changes",,,"",,,
+Backup & restore,Infra,"Backup config; restore test record; screenshots/logs","Sample last restore test + 1 backup job",,,"",,,
+Supplier risk,Procurement,"Vendor assessment; contract clauses; periodic review","Sample 1 critical vendor",,,"",,,
+Incident management,Security,"Incident record; comms; RCA; CAPA","Sample 1 incident end-to-end",,,"",,,
