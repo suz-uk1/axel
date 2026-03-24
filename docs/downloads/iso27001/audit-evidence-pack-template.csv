@@ -1,0 +1,9 @@
+Control / topic,Evidence item,System / source,Owner,Sample period,Link,Notes
+Access control (JML),Access request + approval tickets,Jira/Service Desk,IT/Security,Last 3 months,,
+Access control (reviews),Quarterly access review record,IAM / spreadsheet,Security,Last quarter,,
+Change management,Change ticket/PR + approval + deploy log,GitHub/Jira/CI,Engineering,Last 3 months,,
+Backups,Restore test record,Screenshots/logs,Infra,Last 6 months,,
+Incidents,Incident record end-to-end + CAPA,IR tool/Jira,Security,Last 6 months,,
+Suppliers,Critical vendor assessment + contract + review,Vendor docs,Ops,Last 12 months,,
+Internal audit,Audit plan + report + findings,Docs/Drive,Security,Last 12 months,,
+Management review,Minutes + actions + owners,Docs/Drive,Leadership,Last 12 months,,
