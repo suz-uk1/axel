@@ -1,0 +1,3 @@
+Control ID,Control name,Applicable (Y/N),Justification,Status,Owner,Evidence / Links,Notes
+A.5.1,Policies for information security,Y,Required to define ISMS direction and expectations,Implemented,Security,"ISMS Policy v1; Confluence link",
+A.5.7,Threat intelligence,N,Not required based on current scope/risks; reviewed quarterly,Not implemented,Security,"Risk assessment section 3.2","Revisit when expanding"

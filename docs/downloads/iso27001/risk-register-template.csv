@@ -1,0 +1,3 @@
+Risk ID,Asset/Process,Threat,Vulnerability,Impact (1-5),Likelihood (1-5),Inherent (IxL),Existing controls,Treatment,Treatment actions,Owner,Due date,Residual (IxL),Evidence/Links
+R-001,Production DB,Unauthorized access,Weak access reviews,5,3,15,"MFA; RBAC",Treat,"Quarterly access review; alerting",Eng,2026-04-15,6,"IAM policy; review tickets"
+R-002,Laptop fleet,Data loss,No disk encryption,4,3,12,MDM partial,Treat,Enforce full-disk encryption,IT,2026-04-01,4,"MDM screenshot; policy"
