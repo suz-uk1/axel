@@ -1,2 +1,0 @@
-Incident_ID,Incident_Name,Detected_At,Known_At_T0,Is_Significant_(Y/N),Severity,Short_Description,Affected_Services,Affected_Assets,Customer_Impact,Data_Impact,Triage_Owner,Incident_Commander,Initial_Notification_Due_(T0+24h),Followup_Notification_Due_(T0+72h),Final_Report_Due_(T0+1month),Notifications_Sent_(who/when),Evidence_Links,Notes
-INC-001,<name>,<YYYY-MM-DD hh:mm>,<YYYY-MM-DD hh:mm>,N,SEV3,<summary>,<services>,<assets>,<impact>,<impact>,<name>,<name>,<YYYY-MM-DD hh:mm>,<YYYY-MM-DD hh:mm>,<YYYY-MM-DD>,<details>,<urls>,

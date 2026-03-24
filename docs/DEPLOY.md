@@ -1,30 +1,19 @@
-# Deploy options — ISO 27001 Toolkit mini site
+# Deploy (GitHub Pages)
 
-This site is a single static file: `index.html`.
+This repo is intended to be served via **GitHub Pages** from the `/docs` folder.
 
-## Option A (fastest, no repo): Cloudflare Pages (upload)
-1. Cloudflare Dashboard → **Pages** → Create project
-2. Choose **Upload assets**
-3. Upload the contents of this folder:
-   - `index.html`
-4. Deploy → copy the public URL
+## Current public pages
+- `/` (index): `docs/index.html`
+- `/iso27001-toolkit/`: `docs/iso27001-toolkit/index.html`
+- `/iso-27001-statement-of-applicability-template/`: `docs/iso-27001-statement-of-applicability-template/index.html`
+- `/iso-27001-risk-register-template/`: `docs/iso-27001-risk-register-template/index.html`
+- `/nis2/`: `docs/nis2/index.html`
 
-## Option B (repo-based): GitHub Pages
-1. Create a repo (public or private)
-2. Put `index.html` at the repo root (or `/docs`)
-3. GitHub Settings → Pages → Deploy from branch
-4. Copy the public URL
+## Publish steps
+1) Commit changes in this repo
+2) Push to GitHub
+3) GitHub repo Settings → Pages → Deploy from branch → set `/docs`
 
-## Option C (CLI): Netlify Drop (drag & drop)
-1. Open https://app.netlify.com/drop
-2. Drag this folder (or just `index.html`)
-3. Copy the public URL
-
-## Sanity checks after deploy
-- CTA button opens the Google Form in a new tab
-- Mobile view: hero + buttons readable
-- Meta title/description look okay when shared
-
-## Next distribution actions (once live)
-- Post on LinkedIn and X using `../promo-assets-v1.md`
-- Do 20 outbound emails using the template
+## Post-publish checklist
+- Verify the 3 ISO pages load and the “Get the Toolkit” CTA opens Stripe checkout
+- Verify UTM params are preserved on CTA buttons
