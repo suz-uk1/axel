@@ -1,0 +1,10 @@
+control,applicable,what_we_do,evidence_location,owner,cadence,last_checked,gaps_notes
+"A.5.1 Policies for information security",Y,"","","","Quarterly","",""
+"A.5.7 Threat intelligence",N,"","","","","",""
+"A.5.15 Access control",Y,"","","","Monthly","",""
+"A.5.23 Information security for use of cloud services",Y,"","","","Quarterly","",""
+"A.8.15 Logging",Y,"","","","Monthly","",""
+"A.8.16 Monitoring activities",Y,"","","","Monthly","",""
+"Clause 9.2 Internal audit",Y,"","","","Quarterly","",""
+"Clause 9.3 Management review",Y,"","","","Quarterly","",""
+"Clause 10.1 Nonconformity and corrective action",Y,"","","","As needed","",""
