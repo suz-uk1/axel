@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISO 27001 Risk Register — What it is + how to build it (startup-friendly)</title>
+  <meta name="description" content="A practical guide to building an ISO 27001 risk register that auditors can follow: required columns, scoring, treatment, and how it links to your SoA." />
+  <style>
+    :root{--bg:#0b0e14;--card:#121827;--text:#e6edf3;--muted:#9fb0c0;--accent:#7c5cff;--border:rgba(255,255,255,.08)}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6;background:var(--bg);color:var(--text)}
+    a{color:inherit}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 20px}
+    .hero{padding:26px;border:1px solid var(--border);background:linear-gradient(180deg,rgba(124,92,255,.12),rgba(18,24,39,1));border-radius:18px}
+    h1{font-size:38px;line-height:1.1;margin:0 0 10px 0}
+    .sub{color:var(--muted);max-width:75ch;margin:0}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:22px}
+    .card{grid-column:span 12;padding:18px;border:1px solid var(--border);background:var(--card);border-radius:16px}
+    @media(min-width:900px){.card.half{grid-column:span 6}}
+    h2{margin:0 0 10px 0;font-size:22px}
+    p,li{color:var(--muted)}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;font-weight:700;text-decoration:none;border:1px solid var(--border);background:rgba(255,255,255,.04)}
+    .btn.primary{background:var(--accent);border-color:transparent}
+    code{background:rgba(255,255,255,.06);padding:2px 6px;border-radius:6px}
+    .footer{margin-top:26px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <section class="hero">
+      <h1>ISO 27001 Risk Register</h1>
+      <p class="sub">A risk register is the engine of your ISMS: it explains <em>what can go wrong</em>, <em>how bad it is</em>, and <em>what you’re doing about it</em>—in a way that’s traceable to controls and evidence.</p>
+      <p class="sub" style="margin-top:10px">
+        <a class="btn primary" href="/iso-27001-risk-register-template/">Download Risk Register Template</a>
+        <a class="btn" href="/iso27001-toolkit/">Get the full Toolkit</a>
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="card half">
+        <h2>What auditors expect</h2>
+        <ul>
+          <li>Clear scope/context (what assets/processes are in-scope)</li>
+          <li>Consistent scoring (likelihood × impact)</li>
+          <li>Defined risk owners + due dates</li>
+          <li>Treatment decisions that link to controls</li>
+          <li>Evidence that treatment is actually implemented</li>
+        </ul>
+      </div>
+
+      <div class="card half">
+        <h2>Minimum columns (startup-sized)</h2>
+        <ul>
+          <li><strong>Risk ID</strong></li>
+          <li><strong>Asset / process</strong> (what is impacted)</li>
+          <li><strong>Threat</strong> + <strong>vulnerability</strong></li>
+          <li><strong>Impact</strong> + <strong>Likelihood</strong></li>
+          <li><strong>Inherent risk</strong> (before controls)</li>
+          <li><strong>Treatment</strong> (avoid/mitigate/transfer/accept)</li>
+          <li><strong>Controls</strong> (Annex A refs) + <strong>owner</strong></li>
+          <li><strong>Residual risk</strong> (after controls) + acceptance</li>
+          <li><strong>Evidence link</strong> (policy/log/ticket)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Common mistakes</h2>
+        <ul>
+          <li><strong>Only listing threats</strong> without the vulnerable condition → auditors can’t see why it’s real.</li>
+          <li><strong>No owners/dates</strong> → it becomes a static spreadsheet, not a managed system.</li>
+          <li><strong>Residual risk never changes</strong> → implies controls aren’t implemented or scoring is meaningless.</li>
+          <li><strong>No links to SoA</strong> → your SoA becomes an ungrounded checklist.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>How it connects to your SoA</h2>
+        <p>The simplest mental model:</p>
+        <ul>
+          <li>Risk register says <strong>what you’re treating</strong>.</li>
+          <li>SoA says <strong>which controls you chose</strong> (and why).</li>
+          <li>Evidence map says <strong>how you prove it</strong>.</li>
+        </ul>
+        <p>When audits go badly, it’s usually because these three drift.</p>
+        <p>
+          <a class="btn" href="/iso27001-soa-guide/">Read the SoA guide</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Links</h2>
+        <ul>
+          <li>Risk register template: <a href="/iso-27001-risk-register-template/">/iso-27001-risk-register-template/</a></li>
+          <li>SoA guide: <a href="/iso27001-soa-guide/">/iso27001-soa-guide/</a></li>
+          <li>Toolkit landing: <a href="/iso27001-toolkit/">/iso27001-toolkit/</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <p class="footer">Axel — ISO 27001 resources. Informational only; not a guarantee of certification outcome.</p>
+
+  </div>
+</body>
+</html>
