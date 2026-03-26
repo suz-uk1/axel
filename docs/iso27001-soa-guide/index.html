@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISO 27001 Statement of Applicability (SoA) — What it is + how to write it</title>
+  <meta name="description" content="A practical, startup-friendly explanation of the ISO 27001 Statement of Applicability (SoA): what auditors expect, common mistakes, and a template link." />
+  <style>
+    :root{--bg:#0b0e14;--card:#121827;--text:#e6edf3;--muted:#9fb0c0;--accent:#7c5cff;--border:rgba(255,255,255,.08)}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6;background:var(--bg);color:var(--text)}
+    a{color:inherit}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 20px}
+    .hero{padding:26px;border:1px solid var(--border);background:linear-gradient(180deg,rgba(124,92,255,.12),rgba(18,24,39,1));border-radius:18px}
+    h1{font-size:38px;line-height:1.1;margin:0 0 10px 0}
+    .sub{color:var(--muted);max-width:75ch;margin:0}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:22px}
+    .card{grid-column:span 12;padding:18px;border:1px solid var(--border);background:var(--card);border-radius:16px}
+    @media(min-width:900px){.card.half{grid-column:span 6}}
+    h2{margin:0 0 10px 0;font-size:22px}
+    p,li{color:var(--muted)}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;font-weight:700;text-decoration:none;border:1px solid var(--border);background:rgba(255,255,255,.04)}
+    .btn.primary{background:var(--accent);border-color:transparent}
+    code{background:rgba(255,255,255,.06);padding:2px 6px;border-radius:6px}
+    .footer{margin-top:26px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <section class="hero">
+      <h1>ISO 27001 Statement of Applicability (SoA)</h1>
+      <p class="sub">The SoA is not “just a list of controls.” It’s the index that ties your scope, risks, and control decisions into something an auditor can follow.</p>
+      <p class="sub" style="margin-top:10px">
+        <a class="btn primary" href="/iso-27001-statement-of-applicability-template/">Download SoA Template</a>
+        <a class="btn" href="/iso27001-toolkit/">Get the full Toolkit</a>
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="card half">
+        <h2>What the SoA is (in plain English)</h2>
+        <p>Your SoA should answer, for each Annex A control (27001:2022):</p>
+        <ul>
+          <li>Is it applicable to your scope?</li>
+          <li>If yes: what’s the justification and implementation status?</li>
+          <li>If no: what’s the justification for exclusion?</li>
+          <li>Where is the evidence (policy/procedure/log) that supports it?</li>
+        </ul>
+      </div>
+
+      <div class="card half">
+        <h2>What auditors look for</h2>
+        <ul>
+          <li><strong>Traceability</strong>: scope → risks → chosen controls → evidence</li>
+          <li><strong>Consistency</strong>: your risk treatment plan matches your SoA decisions</li>
+          <li><strong>Justifications</strong>: exclusions are defensible (not hand-wavy)</li>
+          <li><strong>Evidence pointers</strong>: not “we do this,” but “here’s where it’s proven”</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Common SoA mistakes (and how to avoid them)</h2>
+        <ul>
+          <li><strong>Copy/pasting a generic SoA</strong> without linking to your risks → add a “risk reference” column.</li>
+          <li><strong>No evidence mapping</strong> → add an “evidence link/location” column.</li>
+          <li><strong>Excluding controls without justification</strong> → write one specific sentence: why it’s out of scope.</li>
+          <li><strong>SoA doesn’t match the risk register</strong> → treat it as a single system, not separate docs.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Next step: make it startup-sized and consistent</h2>
+        <p>If you’re doing first-time certification, most delays come from having pieces that don’t fit together. The fastest path is a consistent doc set:</p>
+        <ul>
+          <li>ISMS scope</li>
+          <li>Risk methodology + risk register</li>
+          <li>SoA aligned to risk treatment</li>
+          <li>Required procedures (internal audit, management review, CAPA)</li>
+          <li>Evidence checklist/map</li>
+        </ul>
+        <p>
+          <a class="btn primary" href="/iso27001-toolkit/">Get the ISO 27001 Startup Toolkit</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Links</h2>
+        <ul>
+          <li>SoA template: <a href="/iso-27001-statement-of-applicability-template/">/iso-27001-statement-of-applicability-template/</a></li>
+          <li>Risk register template: <a href="/iso-27001-risk-register-template/">/iso-27001-risk-register-template/</a></li>
+          <li>Toolkit landing: <a href="/iso27001-toolkit/">/iso27001-toolkit/</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <p class="footer">Axel — ISO 27001 resources. This page is informational and not a guarantee of certification outcome.</p>
+
+  </div>
+</body>
+</html>
