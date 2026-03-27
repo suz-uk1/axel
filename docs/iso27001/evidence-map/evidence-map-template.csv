@@ -1,0 +1,5 @@
+control_id,control_name,risk(s)_covered,what_we_do_in_practice,evidence_link_or_location,cadence,owner,status,notes
+A.5.1,Policies for information security,,Define and approve top-level IS policy; review annually.,Link to IS Policy doc + approval record,Annual,CISO/Owner,planned,
+A.5.7,Threat intelligence,,Monitor relevant advisories; document how intel is used.,Ticket/notes + subscription proof,Monthly,Security,planned,
+A.5.15,Access control,,Define access principles; enforce least privilege.,Access control policy + IAM config screenshots,Quarterly review,Engineering,planned,
+A.5.29,Information security during disruption,,Backups + restore tests + incident comms.,Backup logs + restore test record,Quarterly,Ops,planned,
