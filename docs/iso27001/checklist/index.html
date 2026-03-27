@@ -1,0 +1,128 @@
+<!doctype html><html><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>ISO 27001 Consistency Checklist (1-page)</title>
+<style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.55;color:#111}h1{font-size:28px}h2{margin-top:28px}hr{margin:22px 0}code{background:#f5f5f5;padding:2px 6px;border-radius:4px}a{color:#0b66c3} .note{background:#f6f8fa;border:1px solid #e5e7eb;padding:12px 14px;border-radius:8px}</style>
+</head><body>
+<div class="note"><strong>Download:</strong> You can bookmark this page and share it. (No email required.)</div>
+<h1>ISO 27001 “Consistency” 1‑Page Checklist (Startup Edition)</h1>
+<p></p>
+<p><strong>Goal:</strong> remove audit rework by keeping one clear line from <strong>Scope → Risk → SoA → Evidence → Audit → Mgmt Review</strong>.</p>
+<p></p>
+<hr/>
+<p></p>
+<h2>0) Inputs (have these ready)</h2>
+<ul>
+<li>Your product/service diagram (what you sell + how it runs)</li>
+<li>Current asset inventory (even rough)</li>
+<li>List of 3rd parties (cloud, SaaS, MSP, contractors)</li>
+<li>Incident / backup / access control reality (what you *actually* do today)</li>
+</ul>
+<p></p>
+<hr/>
+<p></p>
+<h2>1) Scope (make it explicit)</h2>
+<p><strong>Write 3 sentences:</strong></p>
+<p>1. *What* is in scope (service/system, locations, people)</p>
+<p>2. *What* is out of scope (and why)</p>
+<p>3. Scope boundary (networks, repos, cloud accounts, environments)</p>
+<p></p>
+<p><strong>Checks:</strong></p>
+<ul>
+<li>☐ Scope matches reality (not wishful)</li>
+<li>☐ Interfaces to out‑of‑scope systems are listed</li>
+<li>☐ Critical suppliers in scope are named (or justified)</li>
+</ul>
+<p></p>
+<hr/>
+<p></p>
+<h2>2) Risk assessment (connect to the scope)</h2>
+<p><strong>Minimum viable method:</strong></p>
+<ul>
+<li>Assets → Threats → Vulnerabilities → Impacts → Existing controls → Residual risk</li>
+</ul>
+<p></p>
+<p><strong>Checks:</strong></p>
+<ul>
+<li>☐ Every top asset is in-scope</li>
+<li>☐ You have at least 1 risk per: identity, data, availability, suppliers</li>
+<li>☐ Treatment decision recorded (accept / reduce / avoid / transfer)</li>
+</ul>
+<p></p>
+<hr/>
+<p></p>
+<h2>3) Statement of Applicability (SoA) — your “truth table”</h2>
+<p>For each control (Annex A / your control set):</p>
+<ul>
+<li>Applicable? (Y/N)</li>
+<li>Justification</li>
+<li>Implementation status (planned / partial / implemented)</li>
+<li>Evidence pointer (link or doc ID)</li>
+</ul>
+<p></p>
+<p><strong>Checks:</strong></p>
+<ul>
+<li>☐ Every “implemented” control has evidence</li>
+<li>☐ Every “not applicable” has defensible justification</li>
+<li>☐ The SoA references the risk treatment plan</li>
+</ul>
+<p></p>
+<hr/>
+<p></p>
+<h2>4) Evidence (the part that wins audits)</h2>
+<p><strong>Rule:</strong> one control → one evidence artifact (minimum).</p>
+<p></p>
+<p>Examples:</p>
+<ul>
+<li>Access control → RBAC policy + sample access review record</li>
+<li>Backups → backup policy + restore test record</li>
+<li>Incident mgmt → incident runbook + tabletop exercise record</li>
+<li>Supplier mgmt → vendor questionnaire + onboarding review record</li>
+</ul>
+<p></p>
+<p><strong>Checks:</strong></p>
+<ul>
+<li>☐ Evidence is dated and repeatable (not one‑off)</li>
+<li>☐ Links work and are accessible to auditors</li>
+<li>☐ Evidence matches what the policy says</li>
+</ul>
+<p></p>
+<hr/>
+<p></p>
+<h2>5) Internal audit → corrective actions</h2>
+<p><strong>Checks:</strong></p>
+<ul>
+<li>☐ Audit plan exists (what/when/who)</li>
+<li>☐ Findings include root cause + action owner + due date</li>
+<li>☐ Follow-up verifies effectiveness</li>
+</ul>
+<p></p>
+<hr/>
+<p></p>
+<h2>6) Management review (close the loop)</h2>
+<p><strong>Agenda checklist:</strong></p>
+<ul>
+<li>Performance vs objectives</li>
+<li>Major risks + changes (org/product/suppliers)</li>
+<li>Nonconformities + corrective action status</li>
+<li>Resource needs</li>
+</ul>
+<p></p>
+<p><strong>Checks:</strong></p>
+<ul>
+<li>☐ Decisions and actions recorded</li>
+<li>☐ Actions feed back into risk/SoA</li>
+</ul>
+<p></p>
+<hr/>
+<p></p>
+<h2>Quick self‑test (if you answer “no”, expect rework)</h2>
+<ul>
+<li>Can you trace **one risk** → **control** → **evidence** in under 60 seconds?</li>
+<li>Can you explain why each “N/A” control is truly out of scope?</li>
+<li>Do your policies describe what you actually do day‑to‑day?</li>
+</ul>
+<p></p>
+<hr/>
+<p></p>
+<p>If you’re implementing ISO 27001 now, reply <strong>“ISO”</strong> and I’ll share the template pack I’m building.</p>
+</body></html>
