@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vendor security questionnaire answers (copy/paste examples)</title>
+  <meta name="description" content="Copy/paste example answers for common vendor security questionnaire questions: MFA, encryption, incident response, logging, BCDR, vendors, and privacy." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Vendor security questionnaire answers (examples)" />
+  <meta property="og:description" content="Copy/paste example answers for MFA, encryption, IR, logging, BCDR, vendors, and privacy." />
+  <meta property="og:url" content="https://suz-uk1.github.io/axel/vendor-security-questionnaire-answers/" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://suz-uk1.github.io/axel/vendor-security-questionnaire-answers/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Vendor security questionnaire answers (copy/paste examples)",
+    "author": {"@type": "Organization", "name": "Axel"},
+    "mainEntityOfPage": "https://suz-uk1.github.io/axel/vendor-security-questionnaire-answers/"
+  }
+  </script>
+  <style>
+    :root{--bg:#0b0e14;--card:#121826;--text:#e7eefc;--muted:#a8b3cf;--accent:#7c5cff;--line:#23304a}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:var(--text)}
+    .wrap{max-width:960px;margin:0 auto;padding:44px 18px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin:14px 0}
+    .btn{display:inline-block;background:var(--accent);color:white;text-decoration:none;padding:10px 14px;border-radius:12px;font-weight:800}
+    h1{margin:0 0 10px;font-size:34px;line-height:1.15}
+    h2{margin:26px 0 10px;font-size:22px}
+    p,li{color:var(--muted)}
+    code{background:#0d1220;border:1px solid var(--line);padding:2px 6px;border-radius:8px}
+    .small{font-size:13px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Vendor security questionnaire answers (copy/paste examples)</h1>
+      <p>Use these as a starting point. Replace placeholders like <code>{{regions}}</code>, <code>{{hosting}}</code>, <code>{{security_contact}}</code>. Avoid absolute statements you can’t prove.</p>
+      <p>
+        <a class="btn" href="/vendor-security-questionnaire-response-kit/">Get the full Response Kit</a>
+        <span class="small">(answer bank + evidence checklist + mapping)</span>
+      </p>
+    </div>
+
+    <h2>Access control</h2>
+    <div class="card">
+      <p><strong>Q: Is MFA required?</strong><br>
+      A: MFA is required for administrative access. Access is granted by role and reviewed periodically (least privilege).</p>
+
+      <p><strong>Q: How do you provision/deprovision access?</strong><br>
+      A: Access is provisioned through a documented process based on role. Access is removed promptly upon role change or termination. Administrative actions are logged.</p>
+    </div>
+
+    <h2>Encryption</h2>
+    <div class="card">
+      <p><strong>Q: Is data encrypted in transit?</strong><br>
+      A: Yes. We use TLS for data in transit.</p>
+
+      <p><strong>Q: Is data encrypted at rest?</strong><br>
+      A: Yes. Encryption at rest is enabled where supported by our storage providers and configured for relevant data stores.</p>
+    </div>
+
+    <h2>Logging & monitoring</h2>
+    <div class="card">
+      <p><strong>Q: Do you log security events?</strong><br>
+      A: Yes. We log key security events (authentication, administrative actions, and system events) and monitor for anomalies. Logs are retained for an appropriate period to support investigations.</p>
+    </div>
+
+    <h2>Incident response</h2>
+    <div class="card">
+      <p><strong>Q: Do you have an incident response plan?</strong><br>
+      A: Yes. We maintain an incident response process for triage, containment, eradication, recovery, and post-incident review.</p>
+
+      <p><strong>Q: What is your breach notification timeframe?</strong><br>
+      A: We notify customers without undue delay in line with contractual and legal requirements, providing details as information becomes available.</p>
+    </div>
+
+    <h2>BCDR</h2>
+    <div class="card">
+      <p><strong>Q: Do you have backups?</strong><br>
+      A: Yes. Backups are performed and we periodically test restoration.</p>
+
+      <p><strong>Q: What are your RTO/RPO?</strong><br>
+      A: We document recovery objectives appropriate to the service. (If you have numbers, state them; otherwise state your current objective and roadmap.)</p>
+    </div>
+
+    <h2>Vendors / subprocessors</h2>
+    <div class="card">
+      <p><strong>Q: Do you use subprocessors?</strong><br>
+      A: Yes, for infrastructure and operational tooling. We assess vendors based on risk and require appropriate security controls in contracts.</p>
+
+      <p><strong>Q: Where is your subprocessor list?</strong><br>
+      A: <code>{{subprocessors_url}}</code></p>
+    </div>
+
+    <h2>Need this mapped to your questionnaire?</h2>
+    <div class="card">
+      <p>See <a href="/vsq-pro-mapping/">VSQ Pro Mapping</a> ($499): questionnaire → mapped answers + evidence-to-attach list (24–48h typical).</p>
+    </div>
+
+    <p class="small">Updated: 2026-03-28 • Not legal advice • Not a certification</p>
+  </div>
+</body>
+</html>
