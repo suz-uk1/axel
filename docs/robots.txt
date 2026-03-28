@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suz-uk1.github.io/axel/sitemap.xml
