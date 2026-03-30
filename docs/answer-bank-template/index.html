@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vendor Security Questionnaire Answer Bank Template (CSV)</title>
+  <meta name="description" content="A lightweight answer bank template to respond to SIG/CAIQ/vendor security questionnaires with governed, evidence-linked answers." />
+  <style>
+    :root{--bg:#0b0e14;--card:#121827;--text:#e6edf3;--muted:#9fb0c0;--accent:#7c5cff;--border:rgba(255,255,255,.08)}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.55;background:var(--bg);color:var(--text)}
+    a{color:inherit}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 20px}
+    .hero{padding:24px;border:1px solid var(--border);background:linear-gradient(180deg,rgba(124,92,255,.12),rgba(18,24,39,1));border-radius:18px}
+    h1{font-size:34px;line-height:1.1;margin:0}
+    .sub{margin:10px 0 0;color:var(--muted);max-width:95ch}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;font-weight:800;text-decoration:none;border:1px solid var(--border);background:rgba(255,255,255,.04)}
+    .btn.primary{background:var(--accent);border-color:transparent}
+    .card{margin-top:18px;padding:18px;border:1px solid var(--border);background:var(--card);border-radius:16px}
+    pre{padding:12px;overflow:auto;color:var(--muted);background:rgba(255,255,255,.06);border-radius:10px}
+    .muted{color:var(--muted)}
+    .footer{margin-top:22px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <section class="hero">
+      <h1>Answer Bank Template (CSV)</h1>
+      <p class="sub">The fastest way to stop vendor questionnaires from derailing deals is to avoid improvising answers.
+      Keep governed answers with <strong>scope caveats</strong> + <strong>evidence links</strong> + <strong>review cadence</strong>.
+      Then SIG/CAIQ becomes assembly, not rewrite-under-pressure.</p>
+      <div class="cta">
+        <a class="btn primary" href="./answer-bank.csv" download>Download template (CSV)</a>
+        <a class="btn" href="https://suz-uk1.github.io/axel/trace-checklist/">TRACE checklist</a>
+        <a class="btn" href="https://suz-uk1.github.io/axel/evidence-index-template/">Evidence Index template</a>
+        <a class="btn" href="https://buy.stripe.com/5kQbJ202A4N14gL50s53O06">Toolkit checkout ($199)</a>
+      </div>
+      <p class="muted">No signup. Start with your top 20 questions.</p>
+    </section>
+
+    <section class="card">
+      <h2>How to use (15 minutes)</h2>
+      <ol class="muted">
+        <li>Copy the 20 questions you see repeatedly (IR, access reviews, encryption, SDLC, backups, subprocessors).</li>
+        <li>Write a <strong>short answer</strong> (what procurement wants) + a <strong>long answer</strong> (implementation details).</li>
+        <li>Add <strong>scope caveats</strong> (what’s in/out) to prevent follow-up traps.</li>
+        <li>Link 1 evidence artifact per answer and set an owner + review dates.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Columns</h2>
+      <pre>question_id, question, short_answer, long_answer,
+scope_caveats, evidence_link, owner,
+last_reviewed, next_review_due, notes</pre>
+      <p class="footer">© Axel — <a href="https://suz-uk1.github.io/axel/">home</a></p>
+    </section>
+
+  </div>
+</body>
+</html>
