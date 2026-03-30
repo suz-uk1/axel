@@ -1,0 +1,6 @@
+audit_id,audit_date,scope,control_id,control_description,expected_evidence,evidence_link,pass_fail,findings,capa_owner,capa_due_date,notes
+IA-001,,,,,,,,,,,
+IA-002,,,,,,,,,,,
+IA-003,,,,,,,,,,,
+IA-004,,,,,,,,,,,
+IA-005,,,,,,,,,,,
