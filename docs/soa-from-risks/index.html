@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SoA from Risks — ISO 27001 Mapping Worksheet (CSV)</title>
+  <meta name="description" content="A lightweight worksheet to build your Statement of Applicability (SoA) from real risks, and keep it traceable to evidence." />
+  <style>
+    :root{--bg:#0b0e14;--card:#121827;--text:#e6edf3;--muted:#9fb0c0;--accent:#7c5cff;--border:rgba(255,255,255,.08)}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.55;background:var(--bg);color:var(--text)}
+    a{color:inherit}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 20px}
+    .hero{padding:24px;border:1px solid var(--border);background:linear-gradient(180deg,rgba(124,92,255,.12),rgba(18,24,39,1));border-radius:18px}
+    h1{font-size:34px;line-height:1.1;margin:0}
+    .sub{margin:10px 0 0;color:var(--muted);max-width:90ch}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;font-weight:800;text-decoration:none;border:1px solid var(--border);background:rgba(255,255,255,.04)}
+    .btn.primary{background:var(--accent);border-color:transparent}
+    .card{margin-top:18px;padding:18px;border:1px solid var(--border);background:var(--card);border-radius:16px}
+    code, pre{background:rgba(255,255,255,.06);border-radius:10px}
+    pre{padding:12px;overflow:auto;color:var(--muted)}
+    .muted{color:var(--muted)}
+    .footer{margin-top:22px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <section class="hero">
+      <h1>Build your SoA from real risks (worksheet)</h1>
+      <p class="sub">Most teams create a generic Statement of Applicability (SoA) first, then try to justify it later.
+      Auditors and procurement can smell this immediately.
+      This worksheet forces a clean trace: <strong>Risk → Control (SoA claim) → Owner/Cadence → Evidence</strong>.</p>
+      <div class="cta">
+        <a class="btn primary" href="./soa-from-risks.csv" download>Download worksheet (CSV)</a>
+        <a class="btn" href="https://suz-uk1.github.io/axel/trace-checklist/">TRACE checklist</a>
+        <a class="btn" href="https://suz-uk1.github.io/axel/evidence-index-template/">Evidence Index template</a>
+        <a class="btn" href="https://buy.stripe.com/5kQbJ202A4N14gL50s53O06">Toolkit checkout ($199)</a>
+      </div>
+      <p class="muted">No signup. Use it with your top 5 risks first.</p>
+    </section>
+
+    <section class="card">
+      <h2>How to use (10 minutes)</h2>
+      <ol class="muted">
+        <li>Write your <strong>top 5 risks</strong> tied to in-scope assets.</li>
+        <li>For each risk, pick the <strong>minimum viable controls</strong> you can defend (Annex A IDs).</li>
+        <li>Set <strong>owner + cadence</strong> for each control, and link one evidence artifact.</li>
+        <li>In internal audit, sample these 5 rows first. If they trace cleanly, the rest is easier.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Worksheet columns</h2>
+      <pre>risk_id, risk_one_liner, asset/threat/impact,
+control_ids (Annex A), soa_applicability (Y/N), soa_justification,
+control_owner, cadence, evidence_link, last_run_date, notes</pre>
+      <p class="muted">Tip: keep SoA justification short and tie it to risk treatment choices.</p>
+      <p class="footer">© Axel — <a href="https://suz-uk1.github.io/axel/">home</a></p>
+    </section>
+
+  </div>
+</body>
+</html>
