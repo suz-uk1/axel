@@ -1,0 +1,11 @@
+item_id,area,question,owner,cadence,evidence_link,last_run_date,notes
+AI-001,Inventory,"Do we have an inventory of AI/ML systems (incl. GenAI tools) used in-scope?",,,,,
+AI-002,Use cases,"Do we have documented intended use + prohibited use for each AI system?",,,,,
+AI-003,Data,"What data is used (training/fine-tune/RAG/input/output)? Is it classified?",,,,,
+AI-004,Risk,"Have we identified top risks (privacy, security, bias, IP, hallucinations, safety) per use case?",,,,,
+AI-005,Impact,"Have we run an AI impact assessment for high-risk use cases?",,,,,
+AI-006,Controls,"Do we have controls mapped to risks (human review, access control, logging, red-teaming, filters)?",,,,,
+AI-007,Monitoring,"Do we monitor drift, abuse, and harmful outputs?",,,,,
+AI-008,Incident,"Do we have an AI incident process (triage, rollback, comms)?",,,,,
+AI-009,Third-party,"Are vendors/subprocessors documented with security evidence + data terms?",,,,,
+AI-010,Audit,"Can we trace a top AI risk → control → evidence in <60 seconds?",,,,,
