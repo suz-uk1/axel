@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISO 27001 TRACE Checklist — Risk → Control → Evidence</title>
+  <meta name="description" content="A 1-page checklist to trace Scope → Risk → SoA → Evidence → Internal Audit for ISO 27001 readiness." />
+  <style>
+    :root{--bg:#0b0e14;--card:#121827;--text:#e6edf3;--muted:#9fb0c0;--accent:#7c5cff;--border:rgba(255,255,255,.08)}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.55;background:var(--bg);color:var(--text)}
+    a{color:inherit}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 20px}
+    .hero{display:grid;gap:12px;padding:24px;border:1px solid var(--border);background:linear-gradient(180deg,rgba(124,92,255,.12),rgba(18,24,39,1));border-radius:18px}
+    h1{font-size:38px;line-height:1.1;margin:0}
+    .sub{font-size:16px;color:var(--muted);max-width:80ch;margin:0}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;font-weight:700;text-decoration:none;border:1px solid var(--border);background:rgba(255,255,255,.04)}
+    .btn.primary{background:var(--accent);border-color:transparent}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}
+    .card{grid-column:span 12;padding:18px;border:1px solid var(--border);background:var(--card);border-radius:16px}
+    @media(min-width:900px){.card.half{grid-column:span 6}}
+    ul{margin:10px 0 0 18px;color:var(--muted)}
+    .muted{color:var(--muted)}
+    .k{display:inline-block;font-weight:800;letter-spacing:.02em;margin-right:8px}
+    code{background:rgba(255,255,255,.06);padding:2px 6px;border-radius:6px}
+    .footer{margin-top:22px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <section class="hero">
+      <h1>ISO 27001 TRACE Checklist</h1>
+      <p class="sub"><strong>Risk → Control → Evidence</strong>. If you can’t do this trace in &lt;60 seconds for your top 5 risks, Stage 1/2 will feel like archaeology.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://suz-uk1.github.io/axel/iso27001-startup-toolkit-v2/#quickstart">Get the 7‑day quickstart</a>
+        <a class="btn" href="https://buy.stripe.com/5kQbJ202A4N14gL50s53O06">Checkout ($199)</a>
+      </div>
+      <p class="muted">Use this as a lightweight operating checklist, not a paperwork exercise.</p>
+    </section>
+
+    <section class="grid">
+      <div class="card half">
+        <h2><span class="k">0</span>Setup</h2>
+        <ul>
+          <li>Pick <strong>one scope statement</strong> (systems + locations + teams in-scope).</li>
+          <li>Pick <strong>one vocabulary</strong> for controls (ISO/Annex A) and stick to it.</li>
+          <li>Create a single shared folder/space for evidence links (not screenshots in Slack).</li>
+        </ul>
+      </div>
+
+      <div class="card half">
+        <h2><span class="k">1</span>Top 5 risks</h2>
+        <ul>
+          <li>Write 5 real risks (not generic) tied to in-scope assets.</li>
+          <li>Each risk has: <code>asset</code>, <code>threat</code>, <code>impact</code>, <code>owner</code>, <code>treatment</code>.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2><span class="k">2</span>TRACE table (do this 5 times)</h2>
+        <p class="muted">Make one row per risk/control pair. Minimal columns:</p>
+        <ul>
+          <li><strong>Risk</strong> (ID + 1-liner)</li>
+          <li><strong>Control</strong> (SoA control + why it applies)</li>
+          <li><strong>Owner</strong> (a person)</li>
+          <li><strong>Cadence</strong> (how often the control runs)</li>
+          <li><strong>Evidence link</strong> (ticket/log/report/runbook + last run date)</li>
+        </ul>
+      </div>
+
+      <div class="card half">
+        <h2><span class="k">3</span>Evidence quality check</h2>
+        <ul>
+          <li>Evidence shows the control <strong>operates</strong> (timestamped), not just exists.</li>
+          <li>Evidence is reproducible: someone else can follow the runbook and re-run it.</li>
+          <li>Evidence points to one source of truth (not a dozen disconnected artifacts).</li>
+        </ul>
+      </div>
+
+      <div class="card half">
+        <h2><span class="k">4</span>Mini internal audit</h2>
+        <ul>
+          <li>Sample 5–10 controls and verify the trace row matches reality.</li>
+          <li>Log 1–3 findings and open CAPA items with owners + due dates.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2><span class="k">5</span>Management review (30 minutes)</h2>
+        <ul>
+          <li>Review: top risks, open CAPAs, incidents, supplier risk, upcoming changes.</li>
+          <li>Record decisions + actions in meeting minutes (this is audit evidence too).</li>
+        </ul>
+        <p class="footer">Want me to sanity-check your SoA↔Risk alignment? DM <strong>SOA</strong> on LinkedIn.</p>
+      </div>
+
+      <div class="card">
+        <h2>FAQ</h2>
+        <p class="muted"><strong>Is this enough to pass?</strong> No—passing depends on your practices and auditor sampling. This checklist prevents the most common “traceability” failures.</p>
+        <p class="muted"><strong>Where does SoA fit?</strong> The SoA is the “control claim.” The evidence link proves the claim is operational.</p>
+      </div>
+    </section>
+
+    <p class="footer">© Axel — <a href="https://suz-uk1.github.io/axel/">home</a></p>
+  </div>
+</body>
+</html>
