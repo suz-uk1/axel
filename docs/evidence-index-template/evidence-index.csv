@@ -1,0 +1,6 @@
+control_id,control_name,soa_applicable,soa_justification,owner,team,cadence,last_run_date,evidence_link,evidence_type,system_scope,notes
+A.5.1,Policies for information security,true,"Required to govern ISMS policies and reviews",, ,Quarterly,,,,, ,
+A.5.15,Access control,true,"Mitigates privileged access abuse risk",, ,Monthly,,,,, ,
+A.8.10,Information deletion,true,"Reduces data retention and breach impact",, ,Quarterly,,,,, ,
+A.8.12,Data leakage prevention,true,"Prevents exfiltration of sensitive data",, ,Monthly,,,,, ,
+A.8.28,Secure coding,true,"Reduces vulnerabilities in SDLC",, ,Per release,,,,, ,
