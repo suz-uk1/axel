@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISO 27001: Keep Risk → SoA → Evidence → CAPA consistent (startup guide)</title>
+  <meta name="description" content="A practical ISO 27001 startup guide: how to keep your Risk Register, Statement of Applicability (SoA), audit evidence, and CAPA consistent so you avoid common audit findings." />
+  <style>
+    :root{--bg:#0b0e14;--card:#121827;--text:#e6edf3;--muted:#9fb0c0;--accent:#7c5cff;--border:rgba(255,255,255,.08)}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6;background:var(--bg);color:var(--text)}
+    a{color:inherit}
+    .wrap{max-width:900px;margin:0 auto;padding:42px 18px}
+    .hero{padding:22px;border:1px solid var(--border);background:linear-gradient(180deg,rgba(124,92,255,.12),rgba(18,24,39,1));border-radius:16px}
+    h1{font-size:34px;line-height:1.15;margin:0 0 10px 0}
+    h2{margin:22px 0 10px 0}
+    p,li{color:var(--muted)}
+    .card{margin-top:18px;padding:18px;border:1px solid var(--border);background:var(--card);border-radius:14px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-block;padding:12px 14px;border-radius:12px;font-weight:700;text-decoration:none;border:1px solid var(--border);background:rgba(255,255,255,.04)}
+    .btn.primary{background:var(--accent);border-color:transparent}
+    code{background:rgba(255,255,255,.06);padding:2px 6px;border-radius:6px}
+    .footer{margin-top:22px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>ISO 27001 consistency check: <br/>Risk → SoA → Evidence → CAPA</h1>
+      <p>If you’re a startup building ISO 27001, most wasted time (and many audit findings) come from one thing: <strong>your documents drift out of sync</strong>.</p>
+      <div class="cta">
+        <a class="btn primary" href="/iso27001-startup-toolkit-v2/?utm_source=seo&utm_medium=page&utm_campaign=iso27001_toolkit_v2">Get the Startup Toolkit</a>
+        <a class="btn" href="#checklist">Jump to checklist</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>What “drift” looks like</h2>
+      <ul>
+        <li>Your <strong>Risk Register</strong> says a risk matters, but your <strong>SoA</strong> excludes the related control (or has weak rationale).</li>
+        <li>Your <strong>SoA</strong> includes a control, but you can’t quickly point to <strong>evidence</strong> (owner, system, artifact, frequency).</li>
+        <li>You have findings from internal audit, but there’s no clear <strong>CAPA</strong> closure (action, owner, due date, verification).</li>
+      </ul>
+    </section>
+
+    <section class="card" id="checklist">
+      <h2>Quick checklist (10 minutes)</h2>
+      <ol>
+        <li><strong>Pick 5 top risks</strong> (by likelihood×impact). For each, list the Annex A controls you’re using to treat it.</li>
+        <li><strong>Open your SoA</strong>: verify each control has a real rationale tied to those risks (not generic text).</li>
+        <li><strong>For 10 controls</strong>: record evidence in one table: <code>Control → Evidence → Owner → System → Frequency</code>.</li>
+        <li><strong>For 3 recent issues</strong>: ensure they have CAPA entries with due dates and verification notes.</li>
+      </ol>
+      <p>If you can’t do these steps quickly, you’re not “behind on ISO” — you’re missing an evidence workflow.</p>
+    </section>
+
+    <section class="card">
+      <h2>Templates that make this easier</h2>
+      <p>The <a href="/iso27001-startup-toolkit-v2/?utm_source=seo&utm_medium=inline&utm_campaign=iso27001_toolkit_v2">ISO 27001 Startup Toolkit</a> is designed around this exact chain (Risk → SoA → Evidence → CAPA) so you don’t end up with a giant pile of disconnected documents.</p>
+    </section>
+
+    <p class="footer">Last updated: 2026-04-01 · <a href="/">Home</a></p>
+  </div>
+</body>
+</html>
