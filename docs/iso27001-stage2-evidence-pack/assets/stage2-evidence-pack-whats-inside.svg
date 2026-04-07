@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#171b2b"/>
+      <stop offset="1" stop-color="#0b0e14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="60" y="60" width="1080" height="510" rx="26" fill="#121827" stroke="rgba(255,255,255,0.10)"/>
+
+  <text x="110" y="150" fill="#e6edf3" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="44" font-weight="800">ISO 27001 Stage 2 Evidence Pack</text>
+  <text x="110" y="205" fill="#9fb0c0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="22">Evidence Map + 7-day sprint plan + auditor checklist (startup-friendly)</text>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="28" fill="#e6edf3">
+    <text x="110" y="290">What’s inside</text>
+  </g>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="22" fill="#9fb0c0">
+    <text x="130" y="340">• Evidence Map template (CSV → Google Sheets)</text>
+    <text x="130" y="380">• Filled example (copy/paste)</text>
+    <text x="130" y="420">• 7-day “evidence sprint” plan (Day 1–7)</text>
+    <text x="130" y="460">• Stage 2 checklist (what auditors ask for)</text>
+  </g>
+
+  <rect x="110" y="500" width="360" height="54" rx="14" fill="#7c5cff"/>
+  <text x="132" y="536" fill="#0b0e14" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="22" font-weight="900">Get it: $79 (USD)</text>
+
+  <text x="510" y="536" fill="#9fb0c0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="18">suz-uk1.github.io/axel/iso27001-stage2-evidence-pack/</text>
+</svg>
