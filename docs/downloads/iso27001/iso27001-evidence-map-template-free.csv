@@ -1,0 +1,8 @@
+control_area,control_reference,evidence_item,owner,link,last_updated,notes
+Access control,A.5/A.8,Access review record (date/reviewer/result),,https://,YYYY-MM-DD,
+Change management,A.8,PR approval / release log,,https://,YYYY-MM-DD,
+Incident management,A.5/A.8,Tabletop/drill record + postmortem,,https://,YYYY-MM-DD,
+Supplier security,A.5,Vendor list + due diligence evidence (SOC2/ISO/DPA),,https://,YYYY-MM-DD,
+Training & awareness,A.6,Training completion record,,https://,YYYY-MM-DD,
+Internal audit,A.9,Internal audit checklist + findings log,,https://,YYYY-MM-DD,
+Management review,A.9,Management review minutes,,https://,YYYY-MM-DD,
